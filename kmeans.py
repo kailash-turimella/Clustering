@@ -9,8 +9,6 @@ Move the centroid to the center of all the points assigned to it
 Reassign each data point to the new closest centroid. Closest according to euclidean distance(but we can change it)
 If any reassignment took place                                                                                    <--| 
  move the centroid to the center of all points assigned to it and reassign each data point to new closest centroid   |
-
-FINISH
 """
 # Importing libraries
 import matplotlib.pyplot as plt
