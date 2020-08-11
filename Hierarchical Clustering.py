@@ -13,10 +13,8 @@ Agglomerative Clustering:
     Make each data point a single-point cluster
     Take the two closest data points and make them one cluster
     Keep joining the two closest clusters until you have one big cluster
-
 """
 # Importing libraries
-#import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -30,7 +28,6 @@ The optimal number of clusters is the number of vertical lines that cross the ho
 Threshold is a horizontal line which passes through the longest continuous vertical line
  all horizontal lines are extended end-to-end
  it can go through the line at any point on the line
-
 """
 import scipy.cluster.hierarchy as sch
 dendrogram = sch.dendrogram(sch.linkage(X, method = 'ward'))#Which distance to use between clusters   #Minimum varience 
